@@ -205,7 +205,6 @@ img {
 .features-text {
     display: flex;
     margin-right: 30px;
-
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -220,18 +219,20 @@ img {
 .icon-animations .features-text {
     width: 100% ;
 }
-.feature-icon {
-    background-color: #F5F4FA;
-    height: 120px;
-    width: 100% ;
+.features-icon {
+}
 
-    border-radius: 4px;  
-    padding: 25px 102px;
+.icon-class  {
+    display: flex;
+    background-color: #F5F4FA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px; 
+    height: 120px;
 }
 
 
 /* ---work and team---*/
-
 
 .work {
     padding-bottom: 94px;
@@ -340,8 +341,11 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .clients-list {
     display: flex;
+    justify-content: center;
+
 }
 .clients-title {
     margin-bottom: 50px;
